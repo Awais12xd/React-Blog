@@ -1,0 +1,24 @@
+.input-field{
+    width: 100%;
+}
+
+.input-field input{
+    width: 100%;
+    margin-top: 4px;
+    border:none;
+    outline: none;
+    height: 35px;
+    border-radius: 4px;
+    background-color: #fff;
+    padding: 0 10px;
+}
+
+.input input{
+    width: 500px;
+}
+
+@media (max-width:600px){
+    .input input{
+        width: 300px;
+    }
+}

@@ -1,0 +1,14 @@
+.select-field{
+    width: 100%;
+}
+
+.select-field select{
+   
+    margin-left: 4px;
+    border: 1px solid black;
+    outline: none;
+    height: 30px;
+    background: transparent;
+    border-radius: 4px;
+    padding: 0 10px;
+}

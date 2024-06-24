@@ -1,0 +1,44 @@
+ .postcard{
+    width: 372px;
+    min-height: 250px;
+    margin:20px;
+    overflow: hidden;
+    border-radius: 10px;
+    padding: 20px 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+    background-color:whitesmoke;
+
+}
+.postcard:hover{
+    background-color: #d6f9ff;
+}
+
+.postcard:hover h2{
+    text-decoration: underline;
+}
+ 
+
+ .postcard .imgCont{
+    overflow: hidden;
+    height: 170px ;
+    width: 370px;
+
+}
+ .postcard .imgCont img{
+    overflow: hidden;
+  border-radius: 3px;
+    height: 170px ;
+    width: 350px;
+    object-fit: cover;
+   
+
+}
+
+
+.postcard h2{
+
+    font-size: 26px;
+    margin-top: 10px;
+    color: rgb(22, 22, 22);
+}

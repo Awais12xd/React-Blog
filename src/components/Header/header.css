@@ -1,0 +1,39 @@
+
+.max-width{
+    width: 100%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+nav{
+    margin: 0 auto; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    padding: 30px 10px;
+    background-color: rgb(238, 235, 235);
+}
+.logo-cont .logo{
+    color:black;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: Ubuntu , 'san-serif';
+}
+.logo-cont .logo span{
+    color: #0D6EFD;
+}
+.links ul{
+   display: flex;
+}
+.links ul li button{
+    border: none;
+    outline: none;
+    font-size: 17px;
+    margin-left: 40px;
+    cursor: pointer;
+    transition:all 0.2s ease-in-out;
+}
+.links ul li button:hover{
+    color: #0D6EFD;
+}
